@@ -1,0 +1,192 @@
+:root {
+    --primery-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --contakts-heder-text-color: #757575;
+    --contakts-footer-text-color: #ACACB0;
+    --logo-text-color: #000000;
+    --button-background-color: #F5F4FA;
+    --button-accent-background-color: #2196F3;
+    --button-hero-accent-color: #188CE8;
+    --secondary-background-color: #2F303A;
+    --primery-background-color: #FFFFFF;
+}
+
+body {
+    background: var(--primery-background-color);
+    color: var(--primery-text-color);
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    color: var(--logo-text-color);
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.web-logo {
+    color: var(--accent-color);
+}
+
+.footer-logo {
+    color: var(--white-color);
+}
+
+.site-nav .link {
+    color: var(--primery-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.curent {
+    color: var(--accent-color);
+}
+
+.kontacts-heder .link {
+    color: var(--contakts-heder-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.kontacts-heder .link:hover,
+.kontacts-heder .link:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--secondary-background-color)
+}
+
+.hero-title {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.button.secondary {
+    color: var(--primery-text-color);
+    background-color: var(--button-background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+.button.primery {
+    color: var(--white-color);
+    background-color: var(--button-accent-background-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--white-color);
+    background-color: var(--button-accent-background-color);
+}
+
+.button.primery:hover,
+.button.primery:focus {
+    background-color: var(--button-hero-accent-color);
+}
+
+.section-title {
+    color: var(--primery-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.section-text {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.advantages {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.workers {
+    background-color: #F5F4FA;
+}
+
+.workers-kard {
+    background-color: var(--primery-background-color);
+}
+
+.worker {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.14;
+    text-align: center;
+}
+
+.position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+.footer {
+    background-color: var(--secondary-background-color);
+    color: var(--white-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.kontacts-footer .link {
+    color: var(--contakts-footer-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.kontacts-footer .link:hover,
+.kontacts-footer .link:focus {
+    color: var(--accent-color);
+}
+
+.project-title {
+    color: var(--primery-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-text {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
